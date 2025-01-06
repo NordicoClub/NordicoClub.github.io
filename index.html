@@ -1,37 +1,81 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple HTML Page</title>
+    <title>Nórdico Club</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .social-links {
+            margin-top: 20px;
+        }
+
+        .social-links a {
+            display: inline-block;
+            margin: 0 10px;
+            color: #333;
+            font-size: 24px;
+            transition: color 0.3s;
+        }
+
+        .social-links a:hover {
+            color: #555;
+        }
+    </style>
 </head>
 <body>
+
     <header>
-        <h1>Welcome to My Simple HTML Page</h1>
+        <h1>Nórdico Club</h1>
+        <p>Bem-vindo ao nosso site!</p>
     </header>
-    <nav>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+
     <main>
-        <section id="home">
-            <h2>Home</h2>
-            <p>This is the home section of the page.</p>
-        </section>
-        <section id="about">
-            <h2>About</h2>
-            <p>This section contains information about the page.</p>
-        </section>
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>This section provides contact information.</p>
-        </section>
+        <p>Em breve, você encontrará aqui informações sobre o Nórdico Club.</p>
+        <p>Fique ligado para novidades!</p>
+
+        <div class="social-links">
+            <a href="https://www.youtube.com/@nordicoclub" target="_blank"><i class="fab fa-youtube"></i></a>
+            <a href="https://www.instagram.com/nordicoclub/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://x.com/nordico_club" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.tumblr.com/nordicoclub" target="_blank"><i class="fab fa-tumblr"></i></a>
+            <a href="https://linktr.ee/nordicoclub" target="_blank"><i class="fas fa-link"></i></a>
+            <a href="https://www.flickr.com/photos/nordicoclub/" target="_blank"><i class="fab fa-flickr"></i></a>
+        </div>
     </main>
+
     <footer>
-        <p>&copy; 2025 Your Name</p>
+        <p>&copy; 2023 Nórdico Club</p>
     </footer>
+
 </body>
 </html>
